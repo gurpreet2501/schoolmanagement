@@ -1,0 +1,50 @@
+@media print {
+  #header,
+  .alert,
+  .print_btn,
+  .left-sidebar,
+  .footer-bottom,
+  .received-order,
+  .desktop-only,
+  .breadcrumb,
+  #wrapper .navbar.navbar-inverse.navbar-fixed-top{
+    display:none;
+  }
+
+  /*ADMIN STYLES*/
+  #wrapper{
+    padding-left:20px !important;
+    padding-right:20px !important;
+  }
+  body{
+    margin-top:0px !important;
+  }
+}
+.print-only{
+  display:none;
+}
+hr.reduced_margin {
+    margin-top: 9px;
+    margin-bottom: 0px;
+}
+.sp-250{
+  margin-top:250px;
+}
+td.print-date {
+    width: 31%;
+}
+
+td.print-name {
+    width: 36%;
+}
+
+.print-sub-titles{
+  font-size: 10pt
+}
+
+.print-title{
+  font-size: 12pt
+}
+.payment-form{
+  display:block;
+}

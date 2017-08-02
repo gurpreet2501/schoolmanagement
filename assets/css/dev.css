@@ -1,0 +1,9 @@
+.red-title {
+    position: absolute;
+    width: 13%;
+    right: 0;
+    background: RED;
+    color: #fff;
+    top: 13px;
+    padding-bottom: 8px;
+}

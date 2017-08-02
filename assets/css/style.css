@@ -1,0 +1,529 @@
+/*
+Adobe Color Wheel Url: https://color.adobe.com/create/color-wheel/?base=3&rule=Custom&selected=4&name=My%20Color%20Theme&mode=rgb&rgbvalues=0.00784313725490196,0.28627450980392155,0.3176470588235294,0,0.8716140823312915,0.9921568627450981,0.9176470588235294,0,0.17028514809365816,0.01568627450980392,0.42745098039215684,0.5019607843137255,0.9921568627450981,0.7686274509803922,0.0784313725490196&swatchOrder=0,1,2,3,4
+
+Color Theme Name: Custom;
+Color Codes : 
+  #046D80 - Teal;
+  #FDC414 - Mustard;
+  #EA002B - RED;
+  rgb(255, 165, 0) - Dark Teal;
+
+*/
+
+body {
+  margin: 0;
+  font-family: Open Sans,Arial,sans-seriff !important;
+}
+
+a {
+  background-color: transparent;
+  text-decoration: none !important;
+}
+
+a:active,
+a:hover {
+  text-decoration: none !important;
+  outline: 0;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+  margin-top:0px;
+}
+mark {
+  background: #ff0;
+  color: #555;
+}
+small {
+  font-size: 80%;
+}
+p {
+    font-family: Arial,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 24px;
+    line-height: 2.4rem;
+    margin: 0;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+td,
+th {
+  padding: 0;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+ 
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333333;
+  background-color: #ffffff;
+ 
+}
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+a {
+
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: RED;
+  text-decoration: underline;
+}
+a:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+figure {
+  margin: 0;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.col-xs-1,
+ .col-xs-2,
+ .col-xs-3,
+ .col-xs-4,
+ .col-xs-5,
+ .col-xs-6,
+ .col-xs-7,
+ .col-xs-8,
+ .col-xs-9,
+ .col-xs-10,
+ .col-xs-11,
+ .col-xs-12{
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  float: left;
+}
+.col-xs-12 {
+  width: 100%;
+}
+.col-xs-11 {
+  width: 91.66666667%;
+}
+.col-xs-10 {
+  width: 83.33333333%;
+}
+.col-xs-9 {
+  width: 75%;
+}
+.col-xs-8 {
+  width: 66.66666667%;
+}
+.col-xs-7 {
+  width: 58.33333333%;
+}
+.col-xs-6 {
+  width: 50%;
+}
+.col-xs-5 {
+  width: 41.66666667%;
+}
+.col-xs-4 {
+  width: 33.33333333%;
+}
+.col-xs-3 {
+  width: 25%;
+}
+.col-xs-2 {
+  width: 16.66666667%;
+}
+.col-xs-1 {
+  width: 8.33333333%;
+}
+
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after,
+.container-fluid:before,
+.container-fluid:after,
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after,
+.container:after,
+.container-fluid:after,
+.row:after {
+  clear: both;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pull-right {
+  float: right !important;
+}
+.pull-left {
+  float: left !important;
+}
+
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.hidden {
+  display: none !important;
+}
+.affix {
+  position: fixed;
+}
+
+.img-circle{
+  border-radius:50%;
+}
+
+.text-center{
+  text-align: center
+}
+
+.img-fit-container{
+  width: 100% !important;
+}
+
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+   
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.header{
+  background: rgb(255, 165, 0);
+  min-height: 158px;
+  padding:10px;
+}
+.menu {
+    background: #FDC414;
+    height: 40px;
+    padding-top: 1px;
+}
+.menu a {
+    font-size: 16px;
+    margin-right: -4px;
+    color: #555;
+    padding-top: 10px;
+    border-right: 2px;
+    position: relative;
+    top: 5px;
+    margin-right: 16px;
+    padding-left: 7px;
+    margin-left: 5px;
+    padding-right: 8px;
+    padding-bottom: 12px;
+}
+a:hover{
+  text-decoration: none;
+}
+.menu a:hover {
+    background: RED;
+    color: #fff;
+}
+h1.site-title {
+    color: #fff;
+    margin-left: 44px;
+    margin-top: 56px;
+    font-size: 42px;
+}
+select.dropdown {
+    background: #FDC414;
+    width: 115px;
+}
+
+.menu-dropdown {
+    width: 11%;
+    height: 26px;
+    padding: 2px 12px;
+    font-size: 18px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #FDC414;
+    background-image: none;
+    border: 0px;
+    position: relative;
+    top: 5px;
+}
+
+img.header-img {
+    margin-top: 10px;
+    width: 80%;
+    margin-bottom: 13px;
+}
+
+img.header-img-2 {
+    margin-top: 33px;
+    width: 80%;
+}
+.slider-images{
+  width: auto !important;
+  height: 317px !important;
+
+}
+
+.sp-20{
+  margin-top:20px;
+}
+.img-pad{
+  padding-right:13px;
+  padding-bottom: 10px;
+}
+.red-color{
+  color:red;
+}
+.footer {
+    background: rgb(255, 165, 0);
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 37px;
+    margin-top: 27px;
+}
+/*.navbar-default {
+    background-color: #FDC414;
+    border-color: #e7e7e7;
+}*/
+.navbar-default {
+    border-color: #e7e7e7;
+    /*background: url(https://india.gov.in/sites/all/themes/adaptivetheme/npi_adaptive/images/bg-noise.png);*/
+}
+.navbar{
+  border: none;
+}
+ul.nav.navbar-nav li a {
+    font-size: 17px;
+}
+.error-msg{
+  display: none
+}
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+    color: red;
+}
+.item img {
+    width: 100% !important;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #ccc;
+}
+.zoom-in{
+  width:90%;
+  -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -ms-transition: all 0.5s ease; transition: all 0.5s ease; 
+}
+.zoom-in:hover{
+  width:100%;
+}
+a:hover{
+  text-decoration: none !important;
+}
+
+.login_link a{
+    color: #fff;
+}
+.login_link {
+    text-align: right;
+}
+nav.navbar.navbar-default {
+    background: #2F70C4;
+}
+span.glyphicon.glyphicon-search {
+    margin-right: 10px;
+    color: #555;
+}
+.label-success {
+    background-color: #5cb85c;
+    padding: 9px;
+}
+
+label.error {
+    background: red;
+    padding: 5px;
+    color: #fff;
+    width: 100%;
+}
+.spacer-100{
+  margin-top: 100px;
+}
+.form-errors p {
+    background: red;
+    color: #fff;
+    padding: 4px;
+}
+
+.login_link a {
+  
+    padding: 6px;
+    border-radius: 8px;
+}
+
+blockquote p.heading {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: red;
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+    padding-top: 23px;
+}
+.label-success.green {
+    padding: 4px;
+}
+div#google_translate_element {
+    text-align: right;
+    margin-top: 13px;
+}
+.booking-count {
+  color:red;
+}
+.login_link a {
+    padding: 6px;
+    border-radius: 8px;
+    background: none;
+}
+p b {
+    color: red;
+    font-size: 17px;
+}
+.color-red{
+  color:red;
+}
+

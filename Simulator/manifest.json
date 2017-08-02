@@ -1,0 +1,15 @@
+{
+  "name": "Weight",
+  "description": "Read Weight",
+  "version": "0.1",
+  "manifest_version": 2,
+  "permissions"	: ["serial"],
+  "externally_connectable": {
+      "matches": ["http://navdanya.com/"]
+  },
+  "app": {
+    "background": {
+      "scripts": ["script.js"]
+    }
+  }
+}
